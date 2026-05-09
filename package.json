@@ -7,7 +7,10 @@
   "homepage": "https://hiresquireai.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bp46/hiresquire-cli.git"
+    "url": "git+https://github.com/hiresquire/hiresquire-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hiresquire/hiresquire-cli/issues"
   },
   "files": [
     "dist",
@@ -30,7 +33,7 @@
     "candidate"
   ],
   "bin": {
-    "hiresquire": "bin/hiresquire"
+    "hiresquire": "./bin/hiresquire"
   },
   "scripts": {
     "build": "tsc",
@@ -65,9 +68,6 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/bp46/hiresquire-cli/issues"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts"
