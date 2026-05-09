@@ -130,7 +130,7 @@ hiresquire init --token YOUR_API_TOKEN
 
 Options:
 - `-t, --token <token>` - API token from HireSquire dashboard (required)
-- `-u, --base-url <url>` - API base URL (default: https://api.hiresquireai.com/api/v1)
+- `-u, --base-url <url>` - API base URL (default: https://hiresquireai.com/api/v1)
 - `-w, --webhook <url>` - Default webhook URL
 - `-y, --yes` - Skip confirmation
 
@@ -335,7 +335,7 @@ function screenCandidates(jobTitle, jobDescription, resumePath) {
 | Variable | Description |
 |----------|-------------|
 | `HIRESQUIRE_API_TOKEN` | API token for authentication |
-| `HIRESQUIRE_BASE_URL` | API base URL (default: https://api.hiresquireai.com/api/v1) |
+| `HIRESQUIRE_BASE_URL` | API base URL (default: https://hiresquireai.com/api/v1) |
 | `HIRESQUIRE_WEBHOOK_URL` | Default webhook URL |
 
 ## JSON Output
@@ -351,7 +351,7 @@ hiresquire screen --title "Job Title" --description "Job description..." --resum
   "success": true,
   "job_id": 123,
   "status": "processing",
-  "status_url": "https://api.hiresquireai.com/api/v1/jobs/123"
+  "status_url": "https://hiresquireai.com/api/v1/jobs/123"
 }
 ```
 
@@ -362,7 +362,7 @@ Configuration is stored in `~/.hiresquire/config.json`:
 ```json
 {
   "apiToken": "your_api_token",
-  "baseUrl": "https://api.hiresquireai.com/api/v1",
+  "baseUrl": "https://hiresquireai.com/api/v1",
   "webhookUrl": "https://your-webhook.com",
   "defaultLeniency": 5
 }

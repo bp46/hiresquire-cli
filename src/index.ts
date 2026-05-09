@@ -157,7 +157,7 @@ program
     .command('init')
     .description('Initialize configuration with API token')
     .requiredOption('-t, --token <token>', 'API token from HireSquire dashboard')
-    .option('-u, --base-url <url>', 'API base URL', 'https://api.hiresquireai.com/api/v1')
+    .option('-u, --base-url <url>', 'API base URL', 'https://hiresquireai.com/api/v1')
     .option('-w, --webhook <url>', 'Default webhook URL')
     .option('-y, --yes', 'Skip confirmation (auto-enabled for non-interactive/JSON mode)')
     .action(async (options) => {

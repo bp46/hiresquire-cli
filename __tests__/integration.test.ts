@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Test configuration
-const TEST_BASE_URL = process.env.HIRESQUIRE_TEST_URL || 'https://api.hiresquireai.com/api/v1';
+const TEST_BASE_URL = process.env.HIRESQUIRE_TEST_URL || 'https://hiresquireai.com/api/v1';
 const TEST_TOKEN = process.env.HIRESQUIRE_TEST_TOKEN;
 
 // Only run integration tests if token is provided
