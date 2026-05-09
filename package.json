@@ -1,0 +1,74 @@
+{
+  "name": "hiresquire-cli",
+  "version": "1.2.2",
+  "description": "HireSquire CLI - AI-powered candidate screening from the command line",
+  "license": "MIT",
+  "author": "HireSquire <info@hiresquireai.com>",
+  "homepage": "https://hiresquireai.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bp46/hiresquire-cli.git"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "hiresquire",
+    "ai",
+    "hiring",
+    "recruitment",
+    "cli",
+    "agent",
+    "openclaw",
+    "claude",
+    "opencode",
+    "codex",
+    "screening",
+    "resume",
+    "candidate"
+  ],
+  "bin": {
+    "hiresquire": "bin/hiresquire"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/hiresquire",
+    "dev": "ts-node ./src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.5",
+    "inquirer": "^9.0.0",
+    "officeparser": "^6.1.0",
+    "ora": "^6.0.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/form-data": "^2.2.1",
+    "@types/inquirer": "^9.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^22.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bp46/hiresquire-cli/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts"
+}

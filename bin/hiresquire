@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+/**
+ * HireSquire CLI Entry Point
+ * 
+ * Usage:
+ *   hiresquire <command> [options]
+ *   npx hiresquire <command> [options]
+ * 
+ * Commands:
+ *   init       Initialize configuration with API token
+ *   screen     Submit a candidate screening job
+ *   jobs       List all jobs
+ *   results    Get results for a job
+ *   status     Check job status
+ *   email      Generate an email for a candidate
+ *   configure  Update configuration settings
+ * 
+ * Options:
+ *   --json     Output as JSON
+ *   --verbose  Enable verbose logging
+ *   --version  Show version number
+ *   --help     Show help
+ */
+
+require('../dist/index');
