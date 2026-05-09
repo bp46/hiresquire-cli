@@ -1,16 +1,16 @@
 {
   "name": "hiresquire-cli",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "HireSquire CLI - AI-powered candidate screening from the command line",
   "license": "MIT",
   "author": "HireSquire <info@hiresquireai.com>",
   "homepage": "https://hiresquireai.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiresquire/hiresquire-cli.git"
+    "url": "git+https://github.com/bp46/hiresquire-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/hiresquire/hiresquire-cli/issues"
+    "url": "https://github.com/bp46/hiresquire-cli/issues"
   },
   "files": [
     "dist",
@@ -33,7 +33,7 @@
     "candidate"
   ],
   "bin": {
-    "hiresquire": "./bin/hiresquire"
+    "hiresquire": "bin/hiresquire"
   },
   "scripts": {
     "build": "tsc",
