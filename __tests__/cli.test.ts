@@ -29,7 +29,7 @@ describe('CLI Package', () => {
         
         expect(pkg.name).toBe('hiresquire-cli');
         expect(pkg.bin).toBeDefined();
-        expect(pkg.bin.hiresquire).toBe('./bin/hiresquire');
+        expect(pkg.bin.hiresquire).toBe('bin/hiresquire');
     });
 
     test('should have all required dependencies', () => {

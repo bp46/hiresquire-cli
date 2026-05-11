@@ -65,7 +65,7 @@ export class ApiClient {
                 'Authorization': `Bearer ${this.config.apiToken}`,
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                'User-Agent': 'hiresquire-cli/1.2.1',
+                'User-Agent': 'hiresquire-cli/1.2.3',
             },
         });
 

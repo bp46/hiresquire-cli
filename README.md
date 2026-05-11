@@ -17,6 +17,17 @@ HireSquire CLI enables AI agents and developers to screen candidates directly fr
 - 🔗 **Webhook Support**: Conditional webhooks for automated workflows
 - 📄 **Resume Parsing**: Supports PDF, DOCX, DOC, TXT, and Markdown files
 
+## Agent Discovery & Registries
+
+HireSquire is a first-class citizen in the AI agent ecosystem. If you are an autonomous agent or building one, you can find and integrate HireSquire through these canonical sources:
+
+- **MCP Hubs**: Find us on [Smithery.ai](https://smithery.ai/server/hiresquire), [Glama.ai](https://glama.ai/mcp/hiresquire), and [MCP.run](https://mcp.run/hiresquire).
+- **Tool Registries**: Integrated with [Composio](https://composio.dev), [LangChain Hub](https://smith.langchain.com/hub), and [OpenAI GPT Store](https://chat.openai.com/g/g-hiresquire).
+- **Machine-Readable Specs**:
+  - [llms.txt](https://hiresquireai.com/llms.txt) - Detailed technical guide for LLMs.
+  - [agent-guidance.json](https://hiresquireai.com/.well-known/agent-guidance.json) - Best practices for autonomous integration.
+  - [openapi.json](https://hiresquireai.com/openapi.json) - Full API specification.
+
 ## Supported Resume Formats
 
 The CLI automatically detects and parses the following resume formats:
@@ -257,6 +268,13 @@ Options:
 - `--threshold <number>` - Auto-reload threshold in dollars
 - `--amount <number>` - Amount to reload each time
 - `--payment-method-id <id>` - Stripe payment method ID
+
+## Examples & Recipes
+
+Check out the [examples/](./examples/) directory for production-ready scripts and agent integration patterns:
+
+- **[Batch Screening Script](./examples/batch_screen.sh)**: A bash script to screen candidates for multiple roles in parallel.
+- **[Agent Integration Examples](#agent-integration-examples)**: Native patterns for OpenClaw, Claude Code, and custom JavaScript agents.
 
 ## Agent Integration Examples
 

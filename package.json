@@ -1,6 +1,6 @@
 {
   "name": "hiresquire-cli",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "HireSquire CLI - AI-powered candidate screening from the command line",
   "license": "MIT",
   "author": "HireSquire <info@hiresquireai.com>",
@@ -15,7 +15,10 @@
   "files": [
     "dist",
     "bin",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
   ],
   "keywords": [
     "hiresquire",
@@ -30,7 +33,12 @@
     "codex",
     "screening",
     "resume",
-    "candidate"
+    "candidate",
+    "ai-agent",
+    "mcp",
+    "autonomous-agent",
+    "tool",
+    "sdk"
   ],
   "bin": {
     "hiresquire": "bin/hiresquire"
