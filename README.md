@@ -1,5 +1,7 @@
 # HireSquire CLI
 
+[![smithery badge](https://smithery.ai/badge/bparrish46/hiresquire-ai)](https://smithery.ai/servers/bparrish46/hiresquire-ai)
+
 > AI-powered candidate screening from the command line
 
 [![npm version](https://img.shields.io/npm/v/hiresquire-cli)](https://www.npmjs.com/package/hiresquire-cli)
@@ -501,6 +503,12 @@ hiresquire screen \
 | Manual LLM prompting | 30+ minutes per candidate | ~$0.50/candidate (GPT-4) | Variable, prompt-dependent | ❌ Custom code needed |
 | Traditional ATS | Days to weeks setup | $200+/month flat fee | Keyword matching only | ❌ No agent API |
 | Build your own | Weeks of engineering | Engineering salary | Depends on your model | ❌ From scratch |
+
+## HireSquire CLI
+
+[![smithery badge](https://smithery.ai/badge/bparrish46/hiresquire-ai)](https://smithery.ai/servers/bparrish46/hiresquire-ai)
+
+The official Command Line Interface and MCP Server for **HireSquire**.
 
 ## MCP Server Mode
 
