@@ -1,6 +1,6 @@
 # HireSquire CLI
 
-[![smithery badge](https://smithery.ai/badge/bparrish46/hiresquire-ai)](https://smithery.ai/servers/bparrish46/hiresquire-ai)
+[![Listed on Smithery](https://img.shields.io/badge/Listed_on-Smithery-orange?style=for-the-badge&logo=smithery&logoColor=white)](https://smithery.ai/servers/bparrish46/hiresquire-ai)
 
 > AI-powered candidate screening from the command line
 
