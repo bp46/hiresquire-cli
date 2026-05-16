@@ -506,8 +506,6 @@ hiresquire screen \
 
 ## HireSquire CLI
 
-[![smithery badge](https://smithery.ai/badge/bparrish46/hiresquire-ai)](https://smithery.ai/servers/bparrish46/hiresquire-ai)
-
 The official Command Line Interface and MCP Server for **HireSquire**.
 
 ## MCP Server Mode

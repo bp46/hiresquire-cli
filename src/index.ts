@@ -20,6 +20,7 @@ import { Command } from 'commander';
 import chalk from 'chalk';
 import ora from 'ora';
 import inquirer from 'inquirer';
+import crypto from 'crypto';
 import { ApiClient, createApiClient, readResumesFromPaths } from './api';
 import { getConfigManager, saveConfig } from './config';
 import {
@@ -1392,7 +1393,14 @@ program
                     throw new Error('Purchase requires either --pack or --amount');
                 }
 
-                const response = await api.post('/credits/purchase', requestData);
+                // Generate idempotency key for the purchase
+                const idempotencyKey = crypto.randomUUID();
+
+                const response = await api.post('/credits/purchase', requestData, {
+                    headers: {
+                        'Idempotency-Key': idempotencyKey
+                    }
+                });
                 if (isJsonOutput) {
                     outputJson(response.data);
                     return;

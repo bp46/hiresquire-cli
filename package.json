@@ -1,6 +1,6 @@
 {
   "name": "hiresquire-cli",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "HireSquire CLI - AI-powered candidate screening from the command line",
   "license": "MIT",
   "author": "HireSquire <info@hiresquireai.com>",
