@@ -23,7 +23,7 @@ HireSquire CLI enables AI agents and developers to screen candidates directly fr
 
 HireSquire is a first-class citizen in the AI agent ecosystem. If you are an autonomous agent or building one, you can find and integrate HireSquire through these canonical sources:
 
-- **MCP Hubs**: Find us on [Smithery.ai](https://smithery.ai/server/hiresquire), [Glama.ai](https://glama.ai/mcp/hiresquire), and [MCP.run](https://mcp.run/hiresquire).
+- **MCP Hubs**: Find us on [Smithery.ai](https://smithery.ai/servers/bparrish46/hiresquire-ai), [Glama.ai](https://glama.ai/mcp/connectors/com.hiresquireai/hire-squire-agent-ecosystem), and [MCP.run](https://mcp.run/hiresquire).
 - **Tool Registries**: Integrated with [Composio](https://composio.dev), [LangChain Hub](https://smith.langchain.com/hub), and [OpenAI GPT Store](https://chat.openai.com/g/g-hiresquire).
 - **Machine-Readable Specs**:
   - [llms.txt](https://hiresquireai.com/llms.txt) - Detailed technical guide for LLMs.
